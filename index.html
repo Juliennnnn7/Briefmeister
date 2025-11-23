@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briefmeister – KI-Briefgenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <h1>📄 Briefmeister – Dein KI-Briefgenerator</h1>
+    <p>Erstelle automatisch professionelle Briefe wie Kündigungen, Mahnungen, Widersprüche und vieles mehr.</p>
+
+    <div class="box">
+        <label>Briefart auswählen:</label>
+        <select id="briefart">
+            <option value="Kündigung">Kündigung</option>
+            <option value="Mahnung">Mahnung</option>
+            <option value="Widerspruch">Widerspruch</option>
+            <option value="Reklamation">Reklamation</option>
+            <option value="Versicherungsschreiben">Versicherungsschreiben</option>
+            <option value="Arbeitgeber-Schreiben">Arbeitgeber-Schreiben</option>
+        </select>
+
+        <label>Deine Angaben (frei schreiben):</label>
+        <textarea id="angaben" placeholder="Beschreibe kurz, worum es geht..."></textarea>
+
+        <button onclick="briefErstellen()">Brief erstellen</button>
+    </div>
+
+    <h2>📝 Dein generierter Brief:</h2>
+    <pre id="output">Hier erscheint dein fertiger Brief...</pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
