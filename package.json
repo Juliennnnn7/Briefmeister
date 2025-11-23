@@ -1,1 +1,11 @@
-
+{
+    "name": "briefmeister",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "openai": "latest",
+        "express": "latest",
+        "cors": "latest"
+    }
+}
