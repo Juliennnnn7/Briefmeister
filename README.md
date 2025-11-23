@@ -1,2 +1,2 @@
 # Briefmeister
-Sag Goodbye zu nervigen Briefen! 📝 Mit Briefmeister generierst du Kündigungen, Widersprüche, Mahnungen &amp; mehr per KI – schnell, sicher und perfekt formuliert. Einfach eingeben, fertig!
+Briefmeister – Dein Briefgenerator für rechtssichere Briefe. Kündigungen schreiben lassen, Mahnungen generieren, Widersprüche online erstellen, Reklamationen und Versicherungsbriefe automatisiert erstellen – schnell, einfach und zuverlässig.
